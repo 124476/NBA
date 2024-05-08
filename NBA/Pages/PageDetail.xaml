@@ -15,11 +15,15 @@
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
         <Image Source="{Binding Logo}" Height="50" Width="50"></Image>
-        <Menu FontSize="17" Grid.Row="1">
-            <MenuItem Name="Roster" Header="Roster" Click="Roster_Click"></MenuItem>
-            <MenuItem Name="Mathup" Header="Mathup" Click="Mathup_Click"></MenuItem>
-            <MenuItem Name="Lineup" Header="Lineup" Click="Lineup_Click"></MenuItem>
-        </Menu>
+        <StackPanel Orientation="Horizontal" Grid.Row="1">
+            <Menu FontSize="17">
+                <MenuItem Name="Roster" Header="Roster" Click="Roster_Click"></MenuItem>
+                <MenuItem Name="Mathup" Header="Mathup" Click="Mathup_Click"></MenuItem>
+                <MenuItem Name="Lineup" Header="Lineup" Click="Lineup_Click"></MenuItem>
+            </Menu>
+            <ComboBox Name="PoiskCombo" Width="200" FontSize="17" Margin="20,0,10,0"></ComboBox>
+            <Button x:Name="SearhBtn" Click="SearhBtn_Click" Content="Search" FontSize="17" Width="200"></Button>
+        </StackPanel>
         <DataGrid Grid.Row="2" x:Name="DataPlayers" FontSize="17" AutoGenerateColumns="False" IsReadOnly="True">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="No." Binding="{Binding PlayerId}"></DataGridTextColumn>
