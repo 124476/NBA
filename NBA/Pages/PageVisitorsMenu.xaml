@@ -1,0 +1,25 @@
+﻿<Page x:Class="NBA.Pages.PageVisitorsMenu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:NBA.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageVisitorsMenu">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button x:Name="Team" FontSize="17" Click="Team_Click" Content="Team" Width="200" Height="30"></Button>
+        <Button x:Name="Players" FontSize="17" Click="Players_Click"  Content="Players" Width="200" Height="30" Grid.Column="1" Grid.Row="0"></Button>
+        <Button x:Name="Mathups" FontSize="17" Click="Mathups_Click"  Content="Mathups" Width="200" Height="30" Grid.Column="0" Grid.Row="1"></Button>
+        <Button x:Name="Photos" FontSize="17" Click="Photos_Click"  Content="Photos" Width="200" Height="30" Grid.Column="1" Grid.Row="1"></Button>
+    </Grid>
+</Page>
