@@ -14,7 +14,12 @@
             <RowDefinition Height="auto"></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
-        <Image Source="{Binding Logo}" Height="50" Width="50"></Image>
+        <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="10,0,0,0">
+            <Image Source="{Binding Logo}" Height="50" Width="50" HorizontalAlignment="Left"></Image>
+            <TextBlock Text="{Binding TeamName}" FontSize="17" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+            <TextBlock Text="|" FontSize="17" Margin="20,0,20,0" VerticalAlignment="Center"></TextBlock>
+            <TextBlock Text="{Binding Division.Name}" FontSize="17" VerticalAlignment="Center"></TextBlock>
+        </StackPanel>
         <StackPanel Orientation="Horizontal" Grid.Row="1">
             <Menu FontSize="17">
                 <MenuItem Name="Roster" Header="Roster" Click="Roster_Click"></MenuItem>
@@ -35,5 +40,69 @@
                 <DataGridTextColumn Header="Salary" Binding="{Binding Salary}"></DataGridTextColumn>
             </DataGrid.Columns>
         </DataGrid>
+        <DataGrid Grid.Row="2" x:Name="DataMathups" FontSize="17" AutoGenerateColumns="False" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Date" Binding="{Binding Starttime, StringFormat='dd/MM/yyyy'}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Matchuuo Type" Binding="{Binding MatchupType.Name}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Opponent" Binding="{Binding Team1.TeamName}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Start Time" Binding="{Binding Starttime, StringFormat='hh/mm'}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Result" Binding="{Binding Result}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Location" Binding="{Binding Location}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Status" Binding="{Binding StatusName}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Grid x:Name="LineupGrid" Grid.Row="2">
+            <Image Source="/Imports/fon.png"/>
+            <StackPanel Margin="63,162,537, 0" Width="200">
+                <TextBlock Text="SG" Background="Yellow"></TextBlock>
+                <ListView Background="Gray" Name="SG" ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Name}" FontSize="17"></TextBlock>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackPanel>
+            <StackPanel Margin="63,30,537,0" Width="200">
+                <TextBlock Text="PF" Background="Yellow"></TextBlock>
+                <ListView Background="Gray" Name="PF" ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Name}" FontSize="17"></TextBlock>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackPanel>
+            <StackPanel Margin="300,115,300,0" Width="200">
+                <TextBlock Text="C" Background="Yellow"></TextBlock>
+                <ListView Background="Gray" Name="C" ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Name}" FontSize="17"></TextBlock>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackPanel>
+            <StackPanel Margin="558,30,42,0" Width="200">
+                <TextBlock Text="SF" Background="Yellow"></TextBlock>
+                <ListView Background="Gray" Name="SF" ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Name}" FontSize="17"></TextBlock>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackPanel>
+            <StackPanel Margin="558,162,42,0" Width="200">
+                <TextBlock Text="PG" Background="Yellow"></TextBlock>
+                <ListView Background="Gray" Name="PG" ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Name}" FontSize="17"></TextBlock>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackPanel>
+        </Grid>
     </Grid>
 </Page>

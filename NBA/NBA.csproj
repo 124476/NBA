@@ -136,6 +136,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>NBADatabase.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\Partials\Mathup.cs" />
     <Compile Include="Models\Partials\Player.cs" />
     <Compile Include="Models\Pictures.cs">
       <DependentUpon>NBADatabase.tt</DependentUpon>
@@ -217,6 +218,7 @@
     <Resource Include="Imports\logo.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Imports\fon.png" />
     <Content Include="Models\NBADatabase.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>NBADatabase.Context.cs</LastGenOutput>
