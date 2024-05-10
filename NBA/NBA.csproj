@@ -84,6 +84,18 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\PageMatchups.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\PagePlayer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\PagePlayersMain.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\PageTeam.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -173,6 +185,15 @@
     </Compile>
     <Compile Include="Pages\PageMain.xaml.cs">
       <DependentUpon>PageMain.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageMatchups.xaml.cs">
+      <DependentUpon>PageMatchups.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PagePlayer.xaml.cs">
+      <DependentUpon>PagePlayer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PagePlayersMain.xaml.cs">
+      <DependentUpon>PagePlayersMain.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\PageTeam.xaml.cs">
       <DependentUpon>PageTeam.xaml</DependentUpon>

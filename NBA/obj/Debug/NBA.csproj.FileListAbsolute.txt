@@ -28,3 +28,9 @@ C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageTeam.g.cs
 C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageTeam.baml
 C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageDetail.g.cs
 C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageDetail.baml
+C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PagePlayersMain.g.cs
+C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PagePlayersMain.baml
+C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PagePlayer.g.cs
+C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PagePlayer.baml
+C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageMatchups.g.cs
+C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageMatchups.baml

@@ -21,5 +21,22 @@ namespace NBA.Models
                 return sum;
             }
         }
+        public string TeamName
+        {
+            get
+            {
+                var team = App.DB.PlayerInTeam.FirstOrDefault(x => x.PlayerId == PlayerId);
+
+                return team.Team.TeamName;
+            }
+        }
+
+        public string Exp
+        {
+            get
+            {
+                return (DateTime.Now.Year - JoinYear.Year).ToString() + " Years";
+            }
+        }
     }
 }

@@ -1,0 +1,55 @@
+﻿<Page x:Class="NBA.Pages.PagePlayersMain"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:NBA.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PagePlayersMain"
+      Loaded="Page_Loaded">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal" Name="StackButtons"></StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Season:" FontSize="17"></TextBlock>
+                <ComboBox Name="ComboSeasons" FontSize="17" Width="150" Margin="10,0,0,0" SelectionChanged="ComboSeasons_SelectionChanged"></ComboBox>
+                <TextBlock Text="Team:" FontSize="17"></TextBlock>
+                <ComboBox Name="ComboTeams" FontSize="17" Width="150" Margin="10,0,0,0" DisplayMemberPath="TeamName" SelectionChanged="ComboTeams_SelectionChanged"></ComboBox>
+                <TextBlock Text="Playername:" FontSize="17"></TextBlock>
+                <TextBox Name="PoiskText" FontSize="17" Width="200" Margin="10,0,0,0" TextChanged="PoiskText_TextChanged"></TextBox>
+            </StackPanel>
+        </StackPanel>
+        <DataGrid x:Name="DataPlayers" Grid.Row="1" AutoGenerateColumns="False" IsReadOnly="True" MouseDoubleClick="DataPlayers_MouseDoubleClick" FontSize="17">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding Img}" Height="50" Width="50"></Image>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="No." Binding="{Binding PlayerId}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Team" Binding="{Binding TeamName}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Position" Binding="{Binding Position.Name}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Weight" Binding="{Binding Weight}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Height" Binding="{Binding Height}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Experience" Binding="{Binding Exp}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Contry" Binding="{Binding Country.CountryCode}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Grid.Row="2" Orientation="Horizontal">
+            <Button x:Name="AllDown" Click="AllDown_Click" FontSize="17" Width="30"></Button>
+            <Button x:Name="Down" Click="Down_Click" FontSize="17" Width="30"></Button>
+            <Button x:Name="Up" Click="Up_Click" FontSize="17" Width="30"></Button>
+            <Button x:Name="AllUp" Click="AllUp_Click"  FontSize="17" Width="30"></Button>
+        </StackPanel>
+    </Grid>
+</Page>

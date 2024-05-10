@@ -58,18 +58,26 @@ namespace NBA.Pages
             Team team = (sender as TextBlock).DataContext as Team;
             if (team != null)
             {
-                NavigationService.Navigate(new PageDetail(team));
+                NavigationService.Navigate(new PageDetail(team, 1));
             }
         }
 
         private void Matchup_MouseUp(object sender, MouseButtonEventArgs e)
         {
-
+            Team team = (sender as TextBlock).DataContext as Team;
+            if (team != null)
+            {
+                NavigationService.Navigate(new PageDetail(team, 2));
+            }
         }
 
         private void FirstLineup_MouseUp(object sender, MouseButtonEventArgs e)
         {
-
+            Team team = (sender as TextBlock).DataContext as Team;
+            if (team != null)
+            {
+                NavigationService.Navigate(new PageDetail(team, 3));
+            }
         }
     }
 }

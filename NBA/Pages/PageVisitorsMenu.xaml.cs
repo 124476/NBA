@@ -38,12 +38,17 @@ namespace NBA.Pages
 
         private void Mathups_Click(object sender, RoutedEventArgs e)
         {
-
+            NavigationService.Navigate(new PageMatchups());
         }
 
         private void Players_Click(object sender, RoutedEventArgs e)
         {
+            NavigationService.Navigate(new PagePlayersMain());
+        }
 
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            App.mainText = "Visitor Menu";
         }
     }
 }

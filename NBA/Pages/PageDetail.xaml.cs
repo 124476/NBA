@@ -22,7 +22,7 @@ namespace NBA.Pages
     public partial class PageDetail : Page
     {
         Team contextTeam;
-        public PageDetail(Team team)
+        public PageDetail(Team team, int stage)
         {
             InitializeComponent();
             var dates = new List<string>() { "All" };
@@ -51,8 +51,25 @@ namespace NBA.Pages
             C.ItemsSource = playerss.Where(x => x.PositionId == 3).ToList();
             SF.ItemsSource = playerss.Where(x => x.PositionId == 1).ToList();
             PG.ItemsSource = playerss.Where(x => x.PositionId == 5).ToList();
-            DataMathups.Visibility = Visibility.Collapsed;
-            LineupGrid.Visibility = Visibility.Collapsed;
+
+            if (stage == 1)
+            {
+                DataPlayers.Visibility = Visibility.Visible;
+                DataMathups.Visibility = Visibility.Collapsed;
+                LineupGrid.Visibility = Visibility.Collapsed;
+            }
+            if (stage == 2)
+            {
+                DataPlayers.Visibility = Visibility.Collapsed;
+                DataMathups.Visibility = Visibility.Visible;
+                LineupGrid.Visibility = Visibility.Collapsed;
+            }
+            if (stage == 3)
+            {
+                DataPlayers.Visibility = Visibility.Collapsed;
+                DataMathups.Visibility = Visibility.Collapsed;
+                LineupGrid.Visibility = Visibility.Visible;
+            }
             DataContext = contextTeam;
         }
 
