@@ -19,14 +19,14 @@
             <StackPanel Orientation="Horizontal" Name="StackButtons"></StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock Text="Season:" FontSize="17"></TextBlock>
-                <ComboBox Name="ComboSeasons" FontSize="17" Width="150" Margin="10,0,0,0" SelectionChanged="ComboSeasons_SelectionChanged"></ComboBox>
+                <ComboBox Name="ComboSeasons" FontSize="17" Width="150" Margin="10,0,0,0" SelectionChanged="ComboSeasons_SelectionChanged" DisplayMemberPath="Name"></ComboBox>
                 <TextBlock Text="Team:" FontSize="17"></TextBlock>
                 <ComboBox Name="ComboTeams" FontSize="17" Width="150" Margin="10,0,0,0" DisplayMemberPath="TeamName" SelectionChanged="ComboTeams_SelectionChanged"></ComboBox>
                 <TextBlock Text="Playername:" FontSize="17"></TextBlock>
                 <TextBox Name="PoiskText" FontSize="17" Width="200" Margin="10,0,0,0" TextChanged="PoiskText_TextChanged"></TextBox>
             </StackPanel>
         </StackPanel>
-        <DataGrid x:Name="DataPlayers" Grid.Row="1" AutoGenerateColumns="False" IsReadOnly="True" MouseDoubleClick="DataPlayers_MouseDoubleClick" FontSize="17">
+        <DataGrid x:Name="DataPlayers" Grid.Row="1" AutoGenerateColumns="False" IsReadOnly="True" MouseDoubleClick="DataPlayers_MouseDoubleClick" FontSize="17" ScrollViewer.VerticalScrollBarVisibility="Hidden">
             <DataGrid.Columns>
                 <DataGridTemplateColumn>
                     <DataGridTemplateColumn.CellTemplate>
@@ -48,8 +48,12 @@
         <StackPanel Grid.Row="2" Orientation="Horizontal">
             <Button x:Name="AllDown" Click="AllDown_Click" FontSize="17" Width="30"></Button>
             <Button x:Name="Down" Click="Down_Click" FontSize="17" Width="30"></Button>
+            <TextBlock Name="OnePage" FontSize="17" Width="20"></TextBlock>
+            <TextBlock Text="of" FontSize="17" Width="20"></TextBlock>
+            <TextBlock Name="AllPage" FontSize="17" Width="20"></TextBlock>
             <Button x:Name="Up" Click="Up_Click" FontSize="17" Width="30"></Button>
             <Button x:Name="AllUp" Click="AllUp_Click"  FontSize="17" Width="30"></Button>
+            <TextBlock Name="TextAll" FontSize="17"></TextBlock>
         </StackPanel>
     </Grid>
 </Page>

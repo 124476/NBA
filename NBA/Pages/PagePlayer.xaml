@@ -11,7 +11,9 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
         </Grid.RowDefinitions>
         <Grid>
             <Grid.ColumnDefinitions>
@@ -78,9 +80,24 @@
                     <TextBlock Text="RPG" Grid.Row="0" Grid.Column="2" Width="50" FontSize="17" ></TextBlock>
                     <TextBlock Grid.Row="1" Grid.Column="0" Width="50" FontSize="17" Name="PPGAll"></TextBlock>
                     <TextBlock Grid.Row="1" Grid.Column="1" Width="50" FontSize="17" Name="APGAll"></TextBlock>
-                    <TextBlock Grid.Row="1" Grid.Column="2" Width="50" FontSize="17" Name="RPGAlly"></TextBlock>
+                    <TextBlock Grid.Row="1" Grid.Column="2" Width="50" FontSize="17" Name="RPGAll"></TextBlock>
                 </Grid>
             </StackPanel>
         </Grid>
+        <StackPanel Orientation="Horizontal" Grid.Row="1">
+            <TextBlock Text="Date:" FontSize="17" Margin="30,0,0,0"></TextBlock>
+            <DatePicker Name="DateStart" FontSize="17" Margin="10,0,0,0"></DatePicker>
+            <TextBlock Text="-" FontSize="17" Margin="30,0,0,0"></TextBlock>
+            <DatePicker Name="DateEnd" FontSize="17" Margin="10,0,0,0"></DatePicker>
+            <Button x:Name="Search" FontSize="17" Content="Search" Click="Search_Click" Width="100"></Button>
+        </StackPanel>
+        <Menu Grid.Row="2" HorizontalAlignment="Center" FontSize="17">
+            <MenuItem Header="POINTS" Name="POINTS"></MenuItem>
+            <MenuItem Header="REBOUNDS" Name="REBOUNDS"></MenuItem>
+            <MenuItem Header="ASSISTS" Name="ASSISTS"></MenuItem>
+            <MenuItem Header="STEALS" Name="STEALS"></MenuItem>
+            <MenuItem Header="BLOCKS" Name="BLOCKS"></MenuItem>
+        </Menu>
+
     </Grid>
 </Page>

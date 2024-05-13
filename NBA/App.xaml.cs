@@ -16,5 +16,6 @@ namespace NBA
     {
         public static NBAEntities DB = new NBAEntities();
         public static string mainText;
+        public static DateTime dateNow;
     }
 }

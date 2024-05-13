@@ -31,7 +31,7 @@
                 <ColumnDefinition Width="auto"></ColumnDefinition>
             </Grid.ColumnDefinitions>
             <Button x:Name="Down" Click="Down_Click" FontSize="25" Width="50"></Button>
-            <Button x:Name="Up" Click="Up_Click"  FontSize="25" Grid.Column="2" Width="50"></Button>
+            <Button x:Name="Up" Click="Up_Click"  FontSize="25" Grid.Column="2" Width="50" ></Button>
             <ListView x:Name="ListPhotos" FontSize="17" Grid.Column="1" ScrollViewer.HorizontalScrollBarVisibility="Hidden" ScrollViewer.VerticalScrollBarVisibility="Hidden">
                 <ListView.ItemsPanel>
                     <ItemsPanelTemplate>

@@ -24,8 +24,11 @@ namespace NBA.Pages
     public partial class PagePlayersMain : Page
     {
         string allText;
-        int dataId;
-        List<Player> players;
+        int currentPage;
+        int pageCount;
+        int showCount = 10;
+
+
         public PagePlayersMain()
         {
             InitializeComponent();
@@ -48,17 +51,9 @@ namespace NBA.Pages
                 button.Width = 27;
                 StackButtons.Children.Add(button);
             }
-
-            var dates = new List<string>() { "All" };
-            DateTime dateStart = DateTime.Now.AddYears(-24);
-            DateTime dateEnd = DateTime.Now;
-            while (dateEnd > dateStart)
-            {
-                dates.Add(dateStart.Year.ToString() + " - " + dateStart.AddYears(1).Year.ToString());
-                dateStart = dateStart.AddYears(1);
-            }
-
-            ComboSeasons.ItemsSource = dates;
+            var seasons = App.DB.Season.ToList();
+            seasons.Add(new Season() { Name = "All" });
+            ComboSeasons.ItemsSource = seasons;
 
             var teams = App.DB.Team.ToList();
             teams.Insert(0, new Team() { TeamName = "All" });
@@ -68,7 +63,7 @@ namespace NBA.Pages
             Down.Content = "<";
             Up.Content = ">";
             AllUp.Content = ">>";
-            dataId = 1;
+            currentPage = 1;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -80,91 +75,94 @@ namespace NBA.Pages
             (sender as Button).Background = Brushes.Gray;
             allText = (sender as Button).Content.ToString();
 
-            dataId = 1;
+            currentPage = 1;
             Refresh();
         }
 
         private void PoiskText_TextChanged(object sender, TextChangedEventArgs e)
         {
-            dataId = 1;
+            currentPage = 1;
             Refresh();
         }
 
         private void ComboTeams_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            dataId = 1;
+            currentPage = 1;
             Refresh();
         }
 
         private void ComboSeasons_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            dataId = 1;
+            currentPage = 1;
             Refresh();
         }
 
         private void Refresh()
         {
-            players = new List<Player>();
+            var players = App.DB.PlayerInTeam.ToList();
+            var selectedTeam = (ComboTeams.SelectedItem as Team);
+            var selectedSeasson = (ComboSeasons.SelectedItem as Season);
 
-            if (ComboTeams.SelectedIndex != -1 && (ComboTeams.SelectedItem as Team).TeamName != "All")
-            {
-                Team team = ComboTeams.SelectedItem as Team;
-                var plays = App.DB.PlayerInTeam.Where(x => x.TeamId == team.TeamId).Select(x => x.Player).ToList();
-                foreach(var player in plays)
-                {
-                    if (!players.Contains(player))
-                    {
-                        players.Add(player);
-                    }
-                }
-            }
-            else
-            {
-                players = App.DB.Player.ToList();
-            }
+            if (ComboTeams.SelectedIndex != -1 && selectedTeam.TeamName != "All")
+                players = players.Where(p => p.TeamId == selectedTeam.TeamId).ToList();
 
             if (allText != "All")
-                players = players.Where(x => x.Name.StartsWith(allText)).ToList();
+                players = players.Where(x => x.Player.Name.StartsWith(allText)).ToList();
+
+            if (ComboSeasons.SelectedIndex != -1 && selectedSeasson.Name != "All")
+                players = players.Where(x => x.SeasonId == selectedSeasson.SeasonId).ToList();
+
+            players = players.Where(x => x.Player.Name.ToLower().Contains(PoiskText.Text.ToLower())).ToList();
+            
+            var tableData = players.Select(x => x.Player).ToList().Distinct().ToList();
+            
+            var totalPlayers = tableData.Count;
+
+            pageCount = tableData.Count / showCount;
+
+            if (totalPlayers % showCount != 0)
+                pageCount++;
+
+            tableData = tableData.Skip((currentPage - 1) * showCount).Take(showCount).ToList();
 
 
-            players = players.Where(x => x.Name.ToLower().Contains(PoiskText.Text.ToLower())).ToList();
+            //if (pageCount == currentPage)
+            //    one = totalPlayers - (currentPage - 1) * 10;
 
-            var play = players;
-            for(int i = 1; i < dataId; i++)
-            {
-                play = play.Skip(10).ToList();
-            }
+            DataPlayers.ItemsSource = tableData;
 
-            DataPlayers.ItemsSource = play.Take(10);
+            AllPage.Text = pageCount.ToString();
+            OnePage.Text = currentPage.ToString();
+            TextAll.Text = $" Total {totalPlayers} recoreds, {tableData.Count} records in one page";
         }
 
         private void AllDown_Click(object sender, RoutedEventArgs e)
         {
-            dataId = 1;
+            currentPage = 1;
             Refresh();
         }
 
         private void Down_Click(object sender, RoutedEventArgs e)
         {
-            if (dataId > 1)
+            if (currentPage > 1)
             {
-                dataId--;
+                currentPage--;
             }
             Refresh();
         }
 
         private void Up_Click(object sender, RoutedEventArgs e)
         {
-            if (dataId < players.Count / 10)
+            if (currentPage < pageCount)
             {
-                dataId++;
+                currentPage++;
             }
             Refresh();
         }
 
         private void AllUp_Click(object sender, RoutedEventArgs e)
         {
-            dataId = players.Count / 10;
+            currentPage = pageCount;
             Refresh();
         }
 

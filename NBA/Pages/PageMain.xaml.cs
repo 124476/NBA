@@ -20,19 +20,24 @@ namespace NBA.Pages
     /// </summary>
     public partial class PageMain : Page
     {
-        int ImgId;
+        int imageStep;
         public PageMain()
         {
             InitializeComponent();
             Down.Content = "<";
             Up.Content = ">";
-            ImgId = 1;
+            imageStep = 0;
             Refresh();
         }
 
         private void Refresh()
         {
-            ListPhotos.ItemsSource = App.DB.Pictures.Where(x => x.Id >= ImgId && x.Id < ImgId + 3).ToList();
+            var photos = App.DB.Pictures.ToList();
+          
+            photos.AddRange(App.DB.Pictures.ToList());
+            
+            photos = photos.Skip(imageStep).Take(3).ToList();
+            ListPhotos.ItemsSource = photos;
         }
 
         private void VisitorBtn_Click(object sender, RoutedEventArgs e)
@@ -47,17 +52,18 @@ namespace NBA.Pages
 
         private void Down_Click(object sender, RoutedEventArgs e)
         {
-            if (ImgId != 0)
-            {
-                ImgId -= 3;
-                Refresh();
-            }
+            imageStep -= 3;
+            if (imageStep < 0)
+                imageStep = App.DB.Pictures.Count() - 3;
+            Refresh();
         }
 
         private void Up_Click(object sender, RoutedEventArgs e)
         {
-            ImgId += 3;
-            ImgId = ImgId % App.DB.Pictures.Count();
+            imageStep += 3;
+            if (imageStep > App.DB.Pictures.Count() - 3)
+                imageStep = 0;
+
             Refresh();
         }
     }

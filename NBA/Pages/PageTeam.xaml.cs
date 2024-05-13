@@ -53,30 +53,30 @@ namespace NBA.Pages
             ListTree.ItemsSource = App.DB.Team.Where(x => x.DivisionId == 4).ToList();
         }
 
-        private void Roster_MouseUp(object sender, MouseButtonEventArgs e)
+        private void FirstLineup_Click(object sender, RoutedEventArgs e)
         {
-            Team team = (sender as TextBlock).DataContext as Team;
+            Team team = (sender as Hyperlink).DataContext as Team;
             if (team != null)
             {
-                NavigationService.Navigate(new PageDetail(team, 1));
+                NavigationService.Navigate(new PageDetail(team, 3));
             }
         }
 
-        private void Matchup_MouseUp(object sender, MouseButtonEventArgs e)
+        private void Matchup_Click(object sender, RoutedEventArgs e)
         {
-            Team team = (sender as TextBlock).DataContext as Team;
+            Team team = (sender as Hyperlink).DataContext as Team;
             if (team != null)
             {
                 NavigationService.Navigate(new PageDetail(team, 2));
             }
         }
 
-        private void FirstLineup_MouseUp(object sender, MouseButtonEventArgs e)
+        private void Roster_Click(object sender, RoutedEventArgs e)
         {
-            Team team = (sender as TextBlock).DataContext as Team;
+            Team team = (sender as Hyperlink).DataContext as Team;
             if (team != null)
             {
-                NavigationService.Navigate(new PageDetail(team, 3));
+                NavigationService.Navigate(new PageDetail(team, 1));
             }
         }
     }

@@ -33,7 +33,7 @@ namespace NBA.Pages
 
         private void Photos_Click(object sender, RoutedEventArgs e)
         {
-
+            NavigationService.Navigate(new PageImages());
         }
 
         private void Mathups_Click(object sender, RoutedEventArgs e)

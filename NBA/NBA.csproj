@@ -80,11 +80,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\PageImages.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\PageMain.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\PageMatchups.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\PageMathup.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -150,6 +158,8 @@
     </Compile>
     <Compile Include="Models\Partials\Mathup.cs" />
     <Compile Include="Models\Partials\Player.cs" />
+    <Compile Include="Models\Partials\ResultMath.cs" />
+    <Compile Include="Models\Partials\ResultOneMath.cs" />
     <Compile Include="Models\Pictures.cs">
       <DependentUpon>NBADatabase.tt</DependentUpon>
     </Compile>
@@ -183,11 +193,17 @@
     <Compile Include="Pages\PageDetail.xaml.cs">
       <DependentUpon>PageDetail.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\PageImages.xaml.cs">
+      <DependentUpon>PageImages.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\PageMain.xaml.cs">
       <DependentUpon>PageMain.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\PageMatchups.xaml.cs">
       <DependentUpon>PageMatchups.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageMathup.xaml.cs">
+      <DependentUpon>PageMathup.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\PagePlayer.xaml.cs">
       <DependentUpon>PagePlayer.xaml</DependentUpon>
@@ -240,6 +256,8 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Imports\fon.png" />
+    <Resource Include="Imports\court-transparent.jpg" />
+    <Resource Include="Imports\download.png" />
     <Content Include="Models\NBADatabase.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>NBADatabase.Context.cs</LastGenOutput>

@@ -25,16 +25,9 @@ namespace NBA.Pages
         public PageDetail(Team team, int stage)
         {
             InitializeComponent();
-            var dates = new List<string>() { "All" };
-            DateTime dateStart = DateTime.Now.AddYears(-24);
-            DateTime dateEnd = DateTime.Now;
-            while (dateEnd > dateStart)
-            {
-                dates.Add(dateStart.Year.ToString() + " - " + dateStart.AddYears(1).Year.ToString());
-                dateStart = dateStart.AddYears(1);
-            }
-
-            PoiskCombo.ItemsSource = dates;
+            var seasons = App.DB.Season.ToList();
+            seasons.Add(new Season() { Name = "All" });
+            PoiskCombo.ItemsSource = seasons;
             contextTeam = team;
             var players = App.DB.PlayerInTeam.Where(x => x.TeamId == team.TeamId).Select(x => x.Player).ToList();
             var playerss = new List<Player>();
@@ -96,15 +89,14 @@ namespace NBA.Pages
 
         private void SearhBtn_Click(object sender, RoutedEventArgs e)
         {
-            if (PoiskCombo.SelectedIndex == -1 || PoiskCombo.Text == "All")
+            if (PoiskCombo.SelectedIndex == -1 || PoiskCombo.Text != "All")
             {
-                DataMathups.ItemsSource = App.DB.Matchup.Where(x => x.Team.TeamId == contextTeam.TeamId).ToList();
+                var seassonId = (PoiskCombo.SelectedItem as Season).SeasonId;
+                DataMathups.ItemsSource = App.DB.Matchup.Where(x => x.Team.TeamId == contextTeam.TeamId && x.SeasonId == seassonId).ToList();
                 return;
             }
 
-            DateTime dateStart = new DateTime();
-            dateStart = dateStart.AddYears(Int32.Parse(PoiskCombo.Text.Split('-')[0]) - 1);
-            DataMathups.ItemsSource = App.DB.Matchup.ToList().Where(x => x.Team.TeamId == contextTeam.TeamId && x.Starttime >= dateStart && x.Starttime <= dateStart.AddYears(1)).ToList();
+            DataMathups.ItemsSource = App.DB.Matchup.Where(x => x.Team.TeamId == contextTeam.TeamId).ToList();
         }
     }
 }

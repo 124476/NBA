@@ -26,10 +26,10 @@
                 <MenuItem Name="Mathup" Header="Mathup" Click="Mathup_Click"></MenuItem>
                 <MenuItem Name="Lineup" Header="Lineup" Click="Lineup_Click"></MenuItem>
             </Menu>
-            <ComboBox Name="PoiskCombo" Width="200" FontSize="17" Margin="20,0,10,0"></ComboBox>
+            <ComboBox Name="PoiskCombo" Width="200" FontSize="17" Margin="20,0,10,0" DisplayMemberPath="Name"></ComboBox>
             <Button x:Name="SearhBtn" Click="SearhBtn_Click" Content="Search" FontSize="17" Width="200"></Button>
         </StackPanel>
-        <DataGrid Grid.Row="2" x:Name="DataPlayers" FontSize="17" AutoGenerateColumns="False" IsReadOnly="True">
+        <DataGrid Grid.Row="2" x:Name="DataPlayers" FontSize="17" AutoGenerateColumns="False" IsReadOnly="True" ScrollViewer.VerticalScrollBarVisibility="Hidden">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="No." Binding="{Binding PlayerId}"></DataGridTextColumn>
                 <DataGridTextColumn Header="Name" Binding="{Binding Name}"></DataGridTextColumn>
@@ -40,7 +40,7 @@
                 <DataGridTextColumn Header="Salary" Binding="{Binding Salary}"></DataGridTextColumn>
             </DataGrid.Columns>
         </DataGrid>
-        <DataGrid Grid.Row="2" x:Name="DataMathups" FontSize="17" AutoGenerateColumns="False" IsReadOnly="True">
+        <DataGrid Grid.Row="2" x:Name="DataMathups" FontSize="17" AutoGenerateColumns="False" IsReadOnly="True" ScrollViewer.VerticalScrollBarVisibility="Hidden">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Date" Binding="{Binding Starttime, StringFormat='dd/MM/yyyy'}"></DataGridTextColumn>
                 <DataGridTextColumn Header="Matchuuo Type" Binding="{Binding MatchupType.Name}"></DataGridTextColumn>

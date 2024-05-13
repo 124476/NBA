@@ -34,3 +34,7 @@ C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PagePlayer.g.cs
 C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PagePlayer.baml
 C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageMatchups.g.cs
 C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageMatchups.baml
+C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageMathup.g.cs
+C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageMathup.baml
+C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageImages.g.cs
+C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageImages.baml

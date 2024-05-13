@@ -3,76 +3,88 @@
   "WorkspaceRootPath": "C:\\Users\\Stipo6\\source\\repos\\NBA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|c:\\users\\stipo6\\source\\repos\\nba\\nba\\pages\\pagematchups.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pagematchups.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|c:\\users\\stipo6\\source\\repos\\nba\\nba\\pages\\pageimages.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pageimages.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|c:\\users\\stipo6\\source\\repos\\nba\\nba\\pages\\pagematchups.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pagematchups.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\models\\partials\\mathup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\models\\partials\\mathup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\pages\\pageteam.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pageteam.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|c:\\users\\stipo6\\source\\repos\\nba\\nba\\pages\\pageplayersmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pageplayersmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|c:\\users\\stipo6\\source\\repos\\nba\\nba\\pages\\pageplayer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pageplayer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\pages\\pagevisitorsmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pagevisitorsmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\pages\\pagevisitorsmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pagevisitorsmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|c:\\users\\stipo6\\source\\repos\\nba\\nba\\pages\\pageplayer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pageplayer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|c:\\users\\stipo6\\source\\repos\\nba\\nba\\pages\\pageplayersmain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pageplayersmain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\models\\partials\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\models\\partials\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\pages\\pageteam.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pageteam.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\models\\nbadatabase.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\models\\nbadatabase.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|c:\\users\\stipo6\\source\\repos\\nba\\nba\\pages\\pagedetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pagedetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\pages\\pagedetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pagedetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\pages\\pagemain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pagemain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|c:\\users\\stipo6\\source\\repos\\nba\\nba\\pages\\pageimages.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pageimages.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\pages\\pagemain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pagemain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\models\\matchup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\models\\matchup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\pages\\pagemain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pagemain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\pages\\pageplayersmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pageplayersmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\pages\\pageplayersmain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pageplayersmain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|c:\\users\\stipo6\\source\\repos\\nba\\nba\\pages\\pagemathup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pagemathup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\pages\\pagemathup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pagemathup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\pages\\pageplayer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pageplayer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\pages\\pageteam.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pageteam.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\pages\\pagematchups.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pagematchups.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\pages\\pagematchups.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pagematchups.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\pages\\pageteam.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pageteam.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\pages\\pagevisitorsmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pagevisitorsmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\pages\\pageplayer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pageplayer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\pages\\pagedetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pagedetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\pages\\pagevisitorsmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pagevisitorsmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\pages\\pagedetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\pagedetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\models\\partials\\resultmath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\models\\partials\\resultmath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\models\\partials\\resultonemath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\models\\partials\\resultonemath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -83,8 +95,20 @@
       "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\models\\partials\\mathup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\models\\partials\\mathup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\models\\partials\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\models\\partials\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\models\\matchup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\models\\matchup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|C:\\Users\\Stipo6\\source\\repos\\NBA\\nba\\models\\nbadatabase.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{CBC5BFB4-BDAE-4253-955A-403C418D197F}|NBA\\NBA.csproj|solutionrelative:nba\\models\\nbadatabase.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,7 +118,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 405,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,27 +142,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Pages\\PageMatchups.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageMatchups.xaml.cs",
-              "RelativeDocumentMoniker": "NBA\\Pages\\PageMatchups.xaml.cs",
-              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageMatchups.xaml.cs",
-              "RelativeToolTip": "NBA\\Pages\\PageMatchups.xaml.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAA1wB0AAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "PageMain.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageMain.xaml.cs",
+              "RelativeDocumentMoniker": "NBA\\Pages\\PageMain.xaml.cs",
+              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageMain.xaml.cs",
+              "RelativeToolTip": "NBA\\Pages\\PageMain.xaml.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAA6wC0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T14:38:26.14Z",
+              "WhenOpened": "2024-05-08T14:27:19.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PageMatchups.xaml",
-              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageMatchups.xaml",
-              "RelativeDocumentMoniker": "NBA\\Pages\\PageMatchups.xaml",
-              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageMatchups.xaml",
-              "RelativeToolTip": "NBA\\Pages\\PageMatchups.xaml",
+              "Title": "PageImages.xaml",
+              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageImages.xaml",
+              "RelativeDocumentMoniker": "NBA\\Pages\\PageImages.xaml",
+              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageImages.xaml",
+              "RelativeToolTip": "NBA\\Pages\\PageImages.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-10T14:37:33.633Z",
+              "WhenOpened": "2024-05-13T10:03:38.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PageTeam.xaml",
+              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageTeam.xaml",
+              "RelativeDocumentMoniker": "NBA\\Pages\\PageTeam.xaml",
+              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageTeam.xaml",
+              "RelativeToolTip": "NBA\\Pages\\PageTeam.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-08T14:46:36.364Z",
               "EditorCaption": ""
             },
             {
@@ -149,34 +185,21 @@
               "RelativeDocumentMoniker": "NBA\\Pages\\PagePlayer.xaml.cs",
               "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PagePlayer.xaml.cs",
               "RelativeToolTip": "NBA\\Pages\\PagePlayer.xaml.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAAhAAAA",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAQwE0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-10T14:17:11.263Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PagePlayer.xaml",
-              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PagePlayer.xaml",
-              "RelativeDocumentMoniker": "NBA\\Pages\\PagePlayer.xaml",
-              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PagePlayer.xaml",
-              "RelativeToolTip": "NBA\\Pages\\PagePlayer.xaml",
+              "DocumentIndex": 6,
+              "Title": "PageMathup.xaml",
+              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageMathup.xaml",
+              "RelativeDocumentMoniker": "NBA\\Pages\\PageMathup.xaml",
+              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageMathup.xaml",
+              "RelativeToolTip": "NBA\\Pages\\PageMathup.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-10T14:16:18.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PagePlayersMain.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PagePlayersMain.xaml.cs",
-              "RelativeDocumentMoniker": "NBA\\Pages\\PagePlayersMain.xaml.cs",
-              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PagePlayersMain.xaml.cs",
-              "RelativeToolTip": "NBA\\Pages\\PagePlayersMain.xaml.cs",
-              "ViewState": "AQIAAJkAAAAAAAAAAAAAAK4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T13:31:25.765Z",
+              "WhenOpened": "2024-05-13T07:55:54.706Z",
               "EditorCaption": ""
             },
             {
@@ -193,156 +216,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "NBADatabase.edmx [Diagram1]",
-              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Models\\NBADatabase.edmx",
-              "RelativeDocumentMoniker": "NBA\\Models\\NBADatabase.edmx",
-              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Models\\NBADatabase.edmx [Diagram1]",
-              "RelativeToolTip": "NBA\\Models\\NBADatabase.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-05-08T16:03:48.004Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PageTeam.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageTeam.xaml.cs",
-              "RelativeDocumentMoniker": "NBA\\Pages\\PageTeam.xaml.cs",
-              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageTeam.xaml.cs",
-              "RelativeToolTip": "NBA\\Pages\\PageTeam.xaml.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAwwDsAAAANAAAA",
+              "DocumentIndex": 5,
+              "Title": "PagePlayersMain.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PagePlayersMain.xaml.cs",
+              "RelativeDocumentMoniker": "NBA\\Pages\\PagePlayersMain.xaml.cs",
+              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PagePlayersMain.xaml.cs",
+              "RelativeToolTip": "NBA\\Pages\\PagePlayersMain.xaml.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAiwIMAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T16:03:27.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Matchup.cs",
-              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Models\\Matchup.cs",
-              "RelativeDocumentMoniker": "NBA\\Models\\Matchup.cs",
-              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Models\\Matchup.cs",
-              "RelativeToolTip": "NBA\\Models\\Matchup.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T16:03:20.754Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Mathup.cs",
-              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Models\\Partials\\Mathup.cs",
-              "RelativeDocumentMoniker": "NBA\\Models\\Partials\\Mathup.cs",
-              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Models\\Partials\\Mathup.cs",
-              "RelativeToolTip": "NBA\\Models\\Partials\\Mathup.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T15:49:03.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Models\\Partials\\Player.cs",
-              "RelativeDocumentMoniker": "NBA\\Models\\Partials\\Player.cs",
-              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Models\\Partials\\Player.cs",
-              "RelativeToolTip": "NBA\\Models\\Partials\\Player.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA2wCMAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T15:16:26.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PageDetail.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageDetail.xaml.cs",
-              "RelativeDocumentMoniker": "NBA\\Pages\\PageDetail.xaml.cs",
-              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageDetail.xaml.cs",
-              "RelativeToolTip": "NBA\\Pages\\PageDetail.xaml.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAUwBwAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T15:10:58.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PageDetail.xaml",
-              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageDetail.xaml",
-              "RelativeDocumentMoniker": "NBA\\Pages\\PageDetail.xaml",
-              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageDetail.xaml",
-              "RelativeToolTip": "NBA\\Pages\\PageDetail.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-08T15:06:59.868Z",
+              "WhenOpened": "2024-05-10T13:31:25.765Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PageTeam.xaml",
-              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageTeam.xaml",
-              "RelativeDocumentMoniker": "NBA\\Pages\\PageTeam.xaml",
-              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageTeam.xaml",
-              "RelativeToolTip": "NBA\\Pages\\PageTeam.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-08T14:46:36.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PageVisitorsMenu.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageVisitorsMenu.xaml.cs",
-              "RelativeDocumentMoniker": "NBA\\Pages\\PageVisitorsMenu.xaml.cs",
-              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageVisitorsMenu.xaml.cs",
-              "RelativeToolTip": "NBA\\Pages\\PageVisitorsMenu.xaml.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAQwCgAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T14:39:56.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PageVisitorsMenu.xaml",
-              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageVisitorsMenu.xaml",
-              "RelativeDocumentMoniker": "NBA\\Pages\\PageVisitorsMenu.xaml",
-              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageVisitorsMenu.xaml",
-              "RelativeToolTip": "NBA\\Pages\\PageVisitorsMenu.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-08T14:39:09.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\App.xaml.cs",
-              "RelativeDocumentMoniker": "NBA\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\App.xaml.cs",
-              "RelativeToolTip": "NBA\\App.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T14:33:46.735Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "PageMain.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageMain.xaml.cs",
-              "RelativeDocumentMoniker": "NBA\\Pages\\PageMain.xaml.cs",
-              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageMain.xaml.cs",
-              "RelativeToolTip": "NBA\\Pages\\PageMain.xaml.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAB8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T14:27:19.558Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "PageMain.xaml",
               "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageMain.xaml",
               "RelativeDocumentMoniker": "NBA\\Pages\\PageMain.xaml",
@@ -354,7 +241,217 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pages\\PageImages.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageImages.xaml.cs",
+              "RelativeDocumentMoniker": "NBA\\Pages\\PageImages.xaml.cs",
+              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageImages.xaml.cs",
+              "RelativeToolTip": "NBA\\Pages\\PageImages.xaml.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAcwCEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T10:05:53.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PageMathup.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageMathup.xaml.cs",
+              "RelativeDocumentMoniker": "NBA\\Pages\\PageMathup.xaml.cs",
+              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageMathup.xaml.cs",
+              "RelativeToolTip": "NBA\\Pages\\PageMathup.xaml.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAAD8BAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T07:56:03.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PageTeam.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageTeam.xaml.cs",
+              "RelativeDocumentMoniker": "NBA\\Pages\\PageTeam.xaml.cs",
+              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageTeam.xaml.cs",
+              "RelativeToolTip": "NBA\\Pages\\PageTeam.xaml.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAqwEgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T16:03:27.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PageMatchups.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageMatchups.xaml.cs",
+              "RelativeDocumentMoniker": "NBA\\Pages\\PageMatchups.xaml.cs",
+              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageMatchups.xaml.cs",
+              "RelativeToolTip": "NBA\\Pages\\PageMatchups.xaml.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAcwFAAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T14:38:26.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PageMatchups.xaml",
+              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageMatchups.xaml",
+              "RelativeDocumentMoniker": "NBA\\Pages\\PageMatchups.xaml",
+              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageMatchups.xaml",
+              "RelativeToolTip": "NBA\\Pages\\PageMatchups.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-10T14:37:33.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PageVisitorsMenu.xaml",
+              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageVisitorsMenu.xaml",
+              "RelativeDocumentMoniker": "NBA\\Pages\\PageVisitorsMenu.xaml",
+              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageVisitorsMenu.xaml",
+              "RelativeToolTip": "NBA\\Pages\\PageVisitorsMenu.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-08T14:39:09.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PageDetail.xaml",
+              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageDetail.xaml",
+              "RelativeDocumentMoniker": "NBA\\Pages\\PageDetail.xaml",
+              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageDetail.xaml",
+              "RelativeToolTip": "NBA\\Pages\\PageDetail.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-08T15:06:59.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PagePlayer.xaml",
+              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PagePlayer.xaml",
+              "RelativeDocumentMoniker": "NBA\\Pages\\PagePlayer.xaml",
+              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PagePlayer.xaml",
+              "RelativeToolTip": "NBA\\Pages\\PagePlayer.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-10T14:16:18.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ResultMath.cs",
+              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Models\\Partials\\ResultMath.cs",
+              "RelativeDocumentMoniker": "NBA\\Models\\Partials\\ResultMath.cs",
+              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Models\\Partials\\ResultMath.cs",
+              "RelativeToolTip": "NBA\\Models\\Partials\\ResultMath.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T08:12:04.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ResultOneMath.cs",
+              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Models\\Partials\\ResultOneMath.cs",
+              "RelativeDocumentMoniker": "NBA\\Models\\Partials\\ResultOneMath.cs",
+              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Models\\Partials\\ResultOneMath.cs",
+              "RelativeToolTip": "NBA\\Models\\Partials\\ResultOneMath.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T09:02:29.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "NBADatabase.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Models\\NBADatabase.edmx",
+              "RelativeDocumentMoniker": "NBA\\Models\\NBADatabase.edmx",
+              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Models\\NBADatabase.edmx [Diagram1]",
+              "RelativeToolTip": "NBA\\Models\\NBADatabase.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-05-08T16:03:48.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Matchup.cs",
+              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Models\\Matchup.cs",
+              "RelativeDocumentMoniker": "NBA\\Models\\Matchup.cs",
+              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Models\\Matchup.cs",
+              "RelativeToolTip": "NBA\\Models\\Matchup.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T16:03:20.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Mathup.cs",
+              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Models\\Partials\\Mathup.cs",
+              "RelativeDocumentMoniker": "NBA\\Models\\Partials\\Mathup.cs",
+              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Models\\Partials\\Mathup.cs",
+              "RelativeToolTip": "NBA\\Models\\Partials\\Mathup.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAswCEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T15:49:03.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Models\\Partials\\Player.cs",
+              "RelativeDocumentMoniker": "NBA\\Models\\Partials\\Player.cs",
+              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Models\\Partials\\Player.cs",
+              "RelativeToolTip": "NBA\\Models\\Partials\\Player.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAUwCMAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T15:16:26.243Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "PageDetail.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageDetail.xaml.cs",
+              "RelativeDocumentMoniker": "NBA\\Pages\\PageDetail.xaml.cs",
+              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageDetail.xaml.cs",
+              "RelativeToolTip": "NBA\\Pages\\PageDetail.xaml.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAQwGYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T15:10:58.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PageVisitorsMenu.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageVisitorsMenu.xaml.cs",
+              "RelativeDocumentMoniker": "NBA\\Pages\\PageVisitorsMenu.xaml.cs",
+              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\Pages\\PageVisitorsMenu.xaml.cs",
+              "RelativeToolTip": "NBA\\Pages\\PageVisitorsMenu.xaml.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwCMAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:39:56.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\App.xaml.cs",
+              "RelativeDocumentMoniker": "NBA\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\App.xaml.cs",
+              "RelativeToolTip": "NBA\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:33:46.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\MainWindow.xaml",
               "RelativeDocumentMoniker": "NBA\\MainWindow.xaml",
@@ -366,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Stipo6\\source\\repos\\NBA\\NBA\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "NBA\\MainWindow.xaml.cs",

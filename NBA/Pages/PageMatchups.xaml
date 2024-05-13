@@ -6,7 +6,8 @@
       xmlns:local="clr-namespace:NBA.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="PageMatchups">
+      Title="PageMatchups"
+      Loaded="Page_Loaded">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -15,33 +16,53 @@
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal">
-            <Button x:Name="Up" FontSize="17" Click="Up_Click"></Button>
+            <Button x:Name="Up" FontSize="17" Click="Up_Click" Width="30"></Button>
             <DatePicker Name="PoiskDate" SelectedDateChanged="PoiskDate_SelectedDateChanged" Width="150" FontSize="17"></DatePicker>
-            <Button x:Name="Down" FontSize="17" Click="Down_Click"></Button>
+            <Button x:Name="Down" FontSize="17" Click="Down_Click" Width="30"></Button>
         </StackPanel>
-        <StackPanel Grid.Row="1" Orientation="Horizontal">
-            <Image x:Name="PhotoOne" Height="100" Width="100"></Image>
-            <TextBlock x:Name="TeamOne" FontSize="17" Width="200"></TextBlock>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,10">
+            <Image Source="{Binding Team.Logo}" Height="100" Width="100"></Image>
+            <TextBlock Text="{Binding Team.TeamName}" FontSize="23" Width="200" Foreground="Blue" VerticalAlignment="Center" TextWrapping="Wrap" Margin="15,0,0,0"></TextBlock>
             <StackPanel VerticalAlignment="Center">
-                <TextBlock Text="VS" FontSize="27"></TextBlock>
-                <TextBlock Name="DateStart" FontSize="17"></TextBlock>
-                <TextBlock Text="Start" FontSize="17"></TextBlock>
+                <TextBlock Text="VS" FontSize="35" HorizontalAlignment="Center"></TextBlock>
+                <TextBlock Text="{Binding Starttime, StringFormat='hh:mm'}" FontSize="23" HorizontalAlignment="Center"></TextBlock>
+                <TextBlock Text="Start" FontSize="17" HorizontalAlignment="Center"></TextBlock>
             </StackPanel>
-            <Image x:Name="PhotoTwo" Height="100" Width="100"></Image>
-            <TextBlock x:Name="TeamTwo" FontSize="17" Width="200"></TextBlock>
+            <Image Source="{Binding Team1.Logo}" Height="100" Width="100" Margin="50,0,0,0"></Image>
+            <TextBlock Text="{Binding Team1.TeamName}" FontSize="23" Width="200" Foreground="Blue" VerticalAlignment="Center" TextWrapping="Wrap" Margin="15,0,0,0"></TextBlock>
         </StackPanel>
         <DataGrid x:Name="DataTeams" AutoGenerateColumns="False" IsReadOnly="True" Grid.Row="2" FontSize="17">
             <DataGrid.Columns>
-                <DataGridTextColumn Binding="{Binding Status}"></DataGridTextColumn>
-                <DataGridTextColumn Binding="{Binding DateStart}"></DataGridTextColumn>
-                <DataGridTextColumn Binding="{Binding Team.TeamName}"></DataGridTextColumn>
-                <DataGridTextColumn Binding="{Binding Result}"></DataGridTextColumn>
-                <DataGridTextColumn Binding="{Binding Team1.TeamName}"></DataGridTextColumn>
-                <DataGridTextColumn Binding="{Binding Team1.Location}"></DataGridTextColumn>
-                <DataGridTemplateColumn>
+                <DataGridTemplateColumn Width="90">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
-                            <Button x:Name="View" FontSize="17" Content="View" Click="View_Click"></Button>
+                            <TextBlock Text="{Binding StatusName}" Background="{Binding StatusColor}"></TextBlock>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Binding="{Binding Starttime, StringFormat='dd/MM hh:mm'}" Width="100"></DataGridTextColumn>
+                <DataGridTemplateColumn Width="30">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding Team.Logo}"></Image>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Binding="{Binding Team.TeamName}" Width="200"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Result}"></DataGridTextColumn>
+                <DataGridTemplateColumn Width="30">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding Team1.Logo}"></Image>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Binding="{Binding Team1.TeamName}" Width="200"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Location}"></DataGridTextColumn>
+                <DataGridTemplateColumn Width="100">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button x:Name="View" FontSize="17" Content="View" Click="View_Click" IsEnabled="{Binding StatusIsEn}"></Button>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
