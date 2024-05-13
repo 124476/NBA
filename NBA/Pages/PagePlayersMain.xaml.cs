@@ -94,6 +94,9 @@ namespace NBA.Pages
         private void ComboSeasons_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             currentPage = 1;
+            App.season = (ComboSeasons.SelectedItem as Season);
+            if ((ComboSeasons.SelectedItem as Season).Name == "All")
+                App.season = null;
             Refresh();
         }
 
@@ -124,10 +127,6 @@ namespace NBA.Pages
                 pageCount++;
 
             tableData = tableData.Skip((currentPage - 1) * showCount).Take(showCount).ToList();
-
-
-            //if (pageCount == currentPage)
-            //    one = totalPlayers - (currentPage - 1) * 10;
 
             DataPlayers.ItemsSource = tableData;
 

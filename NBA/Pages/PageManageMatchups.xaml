@@ -1,0 +1,56 @@
+﻿<Page x:Class="NBA.Pages.PageManageMatchups"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:NBA.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageManageMatchups"
+      Loaded="Page_Loaded">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Menu FontSize="17" Margin="0,10,0,0">
+            <MenuItem Name="Preseason" Header="Preseason" Click="Preseason_Click"></MenuItem>
+            <MenuItem Name="RegularSeason" Header="Regular Season" Click="RegularSeason_Click"></MenuItem>
+        </Menu>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,30,0">
+            <ComboBox Name="PoiskCombo" FontSize="17" DisplayMemberPath="Name" Width="150"></ComboBox>
+            <CheckBox x:Name="CheckDate" VerticalAlignment="Center"></CheckBox>
+            <DatePicker Name="PoiskDate" Width="150" FontSize="17"></DatePicker>
+            <Button x:Name="Search" Content="Search" FontSize="17" Click="Search_Click" Width="150"></Button>
+        </StackPanel>
+        <Button x:Name="NewBtn" Click="NewBtn_Click" Content="+Add a new matchup" Width="200" Grid.Row="1" HorizontalAlignment="Left" Margin="10,5,0,5" FontSize="17"></Button>
+        <DataGrid x:Name="DataMatchups" FontSize="17" Grid.Row="2" AutoGenerateColumns="False" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Date" Binding="{Binding Starttime, StringFormat='yyyy/MM/dd'}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Team(Away)" Binding="{Binding Team1.TeamName}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Team(Home)" Binding="{Binding Team.TeamName}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Time" Binding="{Binding Starttime, StringFormat='hh:mm d'}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Location" Binding="{Binding Location}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Finished" Binding="{Binding IsFinished}"></DataGridTextColumn>
+                <DataGridTemplateColumn Header="Update">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button x:Name="UpdateBtn" Content="Update" Click="UpdateBtn_Click"></Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Delete">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button x:Name="DeleteBtn" Content="Delete" Click="DeleteBtn_Click"></Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="ExportBtn" Click="ExportBtn_Click"  Content="Export to excel" Width="200" Grid.Row="4" HorizontalAlignment="Right" Margin="0,5,10,5" FontSize="17"></Button>
+    </Grid>
+</Page>

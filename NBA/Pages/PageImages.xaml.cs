@@ -16,6 +16,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Path = System.IO.Path;
 
 namespace NBA.Pages
 {
@@ -32,6 +33,8 @@ namespace NBA.Pages
         {
             InitializeComponent();
             dataId = 0;
+            App.mainText = "Photos";
+            TextOnly.Text = "1";
             Refresh();
         }
 
@@ -51,6 +54,7 @@ namespace NBA.Pages
         private void DownAll_Click(object sender, RoutedEventArgs e)
         {
             dataId = 0;
+            TextOnly.Text = (dataId + 1).ToString();
             Refresh();
         }
 
@@ -58,23 +62,24 @@ namespace NBA.Pages
         {
             photos = App.DB.Pictures.ToList().Skip(dataId * showCount).Take(showCount).ToList();
             ListPhotos.ItemsSource = photos;
-            totalCount = photos.Count / showCount;
-            if (photos.Count % showCount != 0)
+            totalCount = App.DB.Pictures.Count() / showCount;
+            if (App.DB.Pictures.Count() % showCount != 0)
                 totalCount++;
-            TextOnly.Text = (dataId + 1).ToString();
             TextAll.Text = $"Total {App.DB.Pictures.Count()} Photos, {photos.Count} Photos in one page, Total {totalCount} Pages";
         }
 
         private void UpAll_Click(object sender, RoutedEventArgs e)
         {
-            dataId = totalCount;
+            dataId = totalCount - 1;
+            TextOnly.Text = totalCount.ToString();
             Refresh();
         }
 
         private void Up_Click(object sender, RoutedEventArgs e)
         {
-            if (dataId < totalCount)
+            if (dataId < totalCount - 1)
                 dataId++;
+            TextOnly.Text = (dataId + 1).ToString();
             Refresh();
         }
 
@@ -82,12 +87,48 @@ namespace NBA.Pages
         {
             if (dataId > 0)
                 dataId = 0;
+            TextOnly.Text = "1";
             Refresh();
         }
 
         private void DownloadAll_Click(object sender, RoutedEventArgs e)
         {
+            var dbDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Photos");
+            if (!Directory.Exists(dbDir))
+            {
+                Directory.CreateDirectory(dbDir);
+            }
 
+            dbDir += "/";
+
+            int txtFile = 0;
+            foreach (var item in App.DB.Pictures.ToList())
+            {
+                var dialogFile = dbDir + txtFile + ".png";
+
+                var file = File.Create(dialogFile);
+                file.Close();
+
+                File.WriteAllBytes(dialogFile, item.Img);
+                txtFile++;
+            }
+
+            MessageBox.Show($"Все фотографии сохранены в {dbDir}");
+        }
+
+        private void TextOnly_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                int pageId = Int32.Parse(TextOnly.Text);
+                if (0 < pageId && pageId <= totalCount)
+                    dataId = pageId - 1;
+                Refresh();
+            }
+            catch
+            {
+
+            }
         }
     }
 }

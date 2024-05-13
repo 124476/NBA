@@ -13,7 +13,7 @@
             <RowDefinition></RowDefinition>
             <RowDefinition Height="auto"></RowDefinition>
         </Grid.RowDefinitions>
-        <ListView x:Name="ListPhotos">
+        <ListView x:Name="ListPhotos" ScrollViewer.HorizontalScrollBarVisibility="Hidden" ScrollViewer.VerticalScrollBarVisibility="Hidden">
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
                     <WrapPanel Width="1240"></WrapPanel>
@@ -21,7 +21,7 @@
             </ListView.ItemsPanel>
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <Image Source="{Binding Img}" Width="300" MouseRightButtonUp="Image_MouseRightButtonUp">
+                    <Image Source="{Binding Img}" Width="270" MouseRightButtonUp="Image_MouseRightButtonUp">
                         <Image.ToolTip>
                             <StackPanel Orientation="Horizontal">
                                 <Image Source="/Imports/download.png" Width="20" Height="20"/>
@@ -36,7 +36,7 @@
         <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Right" Margin="0,0,20,0">
             <Button x:Name="DownAll" Click="DownAll_Click" Content="|&lt;" Width="30" Height="30" FontSize="17" Margin="5,0,5,0"></Button>
             <Button x:Name="Down" Click="Down_Click"  Content="&lt;" Width="30" Height="30" FontSize="17" Margin="5,0,5,0"></Button>
-            <TextBlock x:Name="TextOnly" FontSize="17" Width="30"></TextBlock>
+            <TextBox x:Name="TextOnly" FontSize="17" Width="30" TextAlignment="Center" SelectionChanged="TextOnly_SelectionChanged"></TextBox>
             <Button x:Name="Up" Click="Up_Click"  Content="&gt;" Width="30" Height="30" FontSize="17" Margin="5,0,5,0"></Button>
             <Button x:Name="UpAll" Click="UpAll_Click"  Content="&gt;|" Width="30" Height="30" FontSize="17" Margin="5,0,5,0"></Button>
             <Button x:Name="DownloadAll" Click="DownloadAll_Click"  Content="Download photos in current page" Width="300" Margin="5,0,5,0" Height="30" FontSize="17"></Button>

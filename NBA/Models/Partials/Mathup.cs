@@ -49,5 +49,22 @@ namespace NBA.Models
             }
         }
 
+        public string Comands
+        {
+            get
+            {
+                return Team.TeamName + " @ " + Team1.TeamName;
+            }
+        }
+
+        public string IsFinished
+        {
+            get
+            {
+                if (StatusName == "Finished")
+                    return "Yes";
+                return "No";
+            }
+        }
     }
 }

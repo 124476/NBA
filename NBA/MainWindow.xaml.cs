@@ -39,11 +39,22 @@ namespace NBA
             {
                 Back.Visibility = Visibility.Hidden;
             }
+
+            if (App.IsLog != 0)
+                Logout.Visibility = Visibility.Visible;
+            else
+                Logout.Visibility = Visibility.Hidden;
         }
 
         private void Back_Click(object sender, RoutedEventArgs e)
         {
             MyFrame.GoBack();
+        }
+
+        private void Logout_Click(object sender, RoutedEventArgs e)
+        {
+            for (int i = 0; i < App.IsLog; i ++)
+                MyFrame.GoBack();
         }
     }
 }

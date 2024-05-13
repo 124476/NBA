@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Stipo6\source\repos\NBA\NBA\App.xaml
-10-1255109611
+181155710830
 2386011735
-40790511282
-18679608557
-MainWindow.xaml;Pages\PageDetail.xaml;Pages\PageImages.xaml;Pages\PageMain.xaml;Pages\PageMatchups.xaml;Pages\PageMathup.xaml;Pages\PagePlayer.xaml;Pages\PagePlayersMain.xaml;Pages\PageTeam.xaml;Pages\PageVisitorsMenu.xaml;
+49227350007
+27-610610401
+MainWindow.xaml;Pages\PageAdmin.xaml;Pages\PageDetail.xaml;Pages\PageImages.xaml;Pages\PageLogin.xaml;Pages\PageMain.xaml;Pages\PageManageMatchups.xaml;Pages\PageManageSeasons.xaml;Pages\PageMatchups.xaml;Pages\PageMathup.xaml;Pages\PageNewMatchup.xaml;Pages\PagePlayer.xaml;Pages\PagePlayersMain.xaml;Pages\PageTeam.xaml;Pages\PageTech.xaml;Pages\PageVisitorsMenu.xaml;Windows\OknoEventOrTech.xaml;Windows\OknoManage.xaml;
 
 False
 

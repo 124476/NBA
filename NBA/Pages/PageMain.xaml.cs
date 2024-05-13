@@ -47,7 +47,7 @@ namespace NBA.Pages
 
         private void AdminBtn_Click(object sender, RoutedEventArgs e)
         {
-
+            NavigationService.Navigate(new PageLogin());
         }
 
         private void Down_Click(object sender, RoutedEventArgs e)
@@ -65,6 +65,11 @@ namespace NBA.Pages
                 imageStep = 0;
 
             Refresh();
+        }
+
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            App.mainText = "NBA Management System";
         }
     }
 }

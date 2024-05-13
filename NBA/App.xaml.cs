@@ -17,5 +17,7 @@ namespace NBA
         public static NBAEntities DB = new NBAEntities();
         public static string mainText;
         public static DateTime dateNow;
+        public static Season season;
+        public static int IsLog;
     }
 }

@@ -18,9 +18,9 @@
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
-        <Button x:Name="Team" FontSize="17" Click="Team_Click" Content="Team" Width="200" Height="30"></Button>
-        <Button x:Name="Players" FontSize="17" Click="Players_Click"  Content="Players" Width="200" Height="30" Grid.Column="1" Grid.Row="0"></Button>
-        <Button x:Name="Mathups" FontSize="17" Click="Mathups_Click"  Content="Mathups" Width="200" Height="30" Grid.Column="0" Grid.Row="1"></Button>
-        <Button x:Name="Photos" FontSize="17" Click="Photos_Click"  Content="Photos" Width="200" Height="30" Grid.Column="1" Grid.Row="1"></Button>
+        <Button x:Name="Team" FontSize="17" Click="Team_Click" Content="Team" Width="200" Height="30" Background="Blue" Foreground="White"></Button>
+        <Button x:Name="Players" FontSize="17" Click="Players_Click"  Content="Players" Width="200" Height="30" Grid.Column="1" Grid.Row="0" Background="Blue" Foreground="White"></Button>
+        <Button x:Name="Mathups" FontSize="17" Click="Mathups_Click"  Content="Mathups" Width="200" Height="30" Grid.Column="0" Grid.Row="1" Background="Blue" Foreground="White"></Button>
+        <Button x:Name="Photos" FontSize="17" Click="Photos_Click"  Content="Photos" Width="200" Height="30" Grid.Column="1" Grid.Row="1" Background="Blue" Foreground="White"></Button>
     </Grid>
 </Page>

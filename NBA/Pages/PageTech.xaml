@@ -1,0 +1,28 @@
+﻿<Page x:Class="NBA.Pages.PageTech"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:NBA.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageTech"
+      Loaded="Page_Loaded">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Welcome to use this system , you can click the buttons below to navigate to the corresponding page. " TextWrapping="Wrap"
+                   FontSize="17" Margin="0,30,0,30" HorizontalAlignment="Center" Width="500" TextAlignment="Center"></TextBlock>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="ManageExecutions" Content="Manage Executions" Click="ManageExecutions_Click"  FontSize="17" Width="200" Height="30" Background="Blue" Foreground="White"></Button>
+            <Button x:Name="TeamReport" Content="Team Report" Click="TeamReport_Click"  FontSize="17" Width="200" Height="30" Background="Blue" Foreground="White" Grid.Row="0" Grid.Column="1"></Button>
+        </Grid>
+    </Grid>
+</Page>

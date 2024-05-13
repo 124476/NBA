@@ -1,0 +1,28 @@
+﻿<Page x:Class="NBA.Pages.PageLogin"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:NBA.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageLogin"
+      Loaded="Page_Loaded">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Users can login into the system using their jobnumber and password." FontSize="17" Margin="0,50,0,50" HorizontalAlignment="Center"></TextBlock>
+        <StackPanel Grid.Row="1" Width="200">
+            <TextBlock Text="Jobnumber:" FontSize="17"></TextBlock>
+            <TextBox x:Name="Jobnumber" FontSize="17"></TextBox>
+            <TextBlock Text="Password:" FontSize="17"></TextBlock>
+            <TextBox x:Name="Password" FontSize="17"></TextBox>
+            <CheckBox Content="Remember me" x:Name="Checkremember" FontSize="17" Margin="0,10,0,10" IsChecked="True"></CheckBox>
+            <Button x:Name="Login" Content="Login" Click="Login_Click" FontSize="17"></Button>
+            <Button x:Name="Cancel" Content="Cancel" Click="Cancel_Click"  FontSize="17" Margin="0,10,0,10"></Button>
+        </StackPanel>
+    </Grid>
+</Page>
