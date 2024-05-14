@@ -30,8 +30,7 @@ namespace NBA.Pages
         {
             App.IsLog = 1;
             App.mainText = "Technical Administrator Menu";
-            var dialog = new OknoManage();
-            dialog.ShowDialog();
+            MessageBox.Show("Manage Executions – Future Add-on", "The feature would be a future add-on to the current system.\r\n");
         }
 
         private void ManageExecutions_Click(object sender, RoutedEventArgs e)

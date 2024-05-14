@@ -1,6 +1,9 @@
-﻿using NBA.Models;
+﻿using Microsoft.Office.Interop.Excel;
+using Microsoft.Win32;
+using NBA.Models;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -14,6 +17,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
+using Button = System.Windows.Controls.Button;
+using Page = System.Windows.Controls.Page;
 
 namespace NBA.Pages
 {
@@ -22,6 +28,8 @@ namespace NBA.Pages
     /// </summary>
     public partial class PageManageMatchups : Page
     {
+        List<Matchup> matchups;
+        DispatcherTimer dispatcherTimer;
         public PageManageMatchups()
         {
             InitializeComponent();
@@ -33,6 +41,15 @@ namespace NBA.Pages
                 Name = "All"
             });
             PoiskCombo.ItemsSource = seassions;
+            dispatcherTimer = new DispatcherTimer();
+            dispatcherTimer.Tick += RefreshTick;
+            dispatcherTimer.Interval = TimeSpan.FromSeconds(2);
+            dispatcherTimer.Start();
+        }
+
+        private void RefreshTick(object sender, EventArgs e)
+        {
+            dispatcherTimer.Stop();
             MessageBox.Show("Update Matchup – Future Add-on", "The  feature would be a future add-on to the current system.");
         }
 
@@ -62,7 +79,7 @@ namespace NBA.Pages
 
         private void Refresh()
         {
-            var matchups = App.DB.Matchup.ToList();
+            matchups = App.DB.Matchup.ToList();
             var seasion = (PoiskCombo.SelectedItem as Season);
             var dateNow = PoiskDate.SelectedDate;
 
@@ -101,7 +118,35 @@ namespace NBA.Pages
 
         private void ExportBtn_Click(object sender, RoutedEventArgs e)
         {
+            var dialog = new SaveFileDialog() { Filter = "*.xlsx; | *.xlsx;" };
+            if (dialog.ShowDialog().GetValueOrDefault())
+            {
+                var file = File.Create(dialog.FileName);
+                file.Close();
 
+
+                Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();
+                Workbook workbook = excelApp.Workbooks.Add(XlWBATemplate.xlWBATWorksheet);
+                Worksheet workshet = workbook.Worksheets[1];
+                workshet.Name = "Matchup";
+
+                workshet.Range["A1"].Value = "Starttime";
+                workshet.Range["B1"].Value = "Team Away";
+                workshet.Range["C1"].Value = "Team Home";
+                workshet.Range["D1"].Value = "Location";
+                workshet.Range["E1"].Value = "Finished";
+
+                for (int i = 2; i < matchups.Count; i++)
+                {
+                    workshet.Range["A" + i.ToString()].Value = matchups[i].Starttime;
+                    workshet.Range["B" + i.ToString()].Value = matchups[i].Team1.TeamName;
+                    workshet.Range["C" + i.ToString()].Value = matchups[i].Team.TeamName;
+                    workshet.Range["D" + i.ToString()].Value = matchups[i].Location;
+                    workshet.Range["E" + i.ToString()].Value = matchups[i].IsFinished;
+                }
+
+                workbook.SaveAs(dialog.FileName);
+            }
         }
     }
 }

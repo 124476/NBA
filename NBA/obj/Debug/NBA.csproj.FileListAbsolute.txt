@@ -58,12 +58,14 @@ C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageAdmin.baml
 C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageLogin.baml
 C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Windows\OknoEventOrTech.baml
 C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageTech.g.cs
-C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Windows\OknoManage.g.cs
 C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageTech.baml
-C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Windows\OknoManage.baml
 C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageManageSeasons.g.cs
 C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageManageSeasons.baml
 C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageManageMatchups.g.cs
 C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageManageMatchups.baml
 C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageNewMatchup.g.cs
 C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageNewMatchup.baml
+C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageManageTeam.g.cs
+C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageManageTeam.baml
+C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageNewTeam.g.cs
+C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageNewTeam.baml

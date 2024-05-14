@@ -26,9 +26,9 @@
                 <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
             <Button x:Name="ManageSeasons" Content="Manage Seasons" Click="ManageSeasons_Click" FontSize="17" Width="200" Height="30" Background="Blue" Foreground="White"></Button>
-            <Button x:Name="Players" Content="Players" Click="Players_Click"  FontSize="17" Width="200" Height="30" Background="Blue" Foreground="White" Grid.Row="0" Grid.Column="1"></Button>
-            <Button x:Name="Matchups" Content="Matchups" Click="Matchups_Click"  FontSize="17" Width="200" Height="30" Background="Blue" Foreground="White" Grid.Row="1" Grid.Column="0"></Button>
-            <Button x:Name="Photos" Content="Photos" Click="Photos_Click"  FontSize="17" Width="200" Height="30" Background="Blue" Foreground="White" Grid.Row="1" Grid.Column="1"></Button>
+            <Button x:Name="Matchups" Content="Manage Matchups" Click="Matchups_Click"  FontSize="17" Width="200" Height="30" Background="Blue" Foreground="White" Grid.Row="0" Grid.Column="1"></Button>
+            <Button x:Name="ManageTeams" Content="Manage Teams" Click="ManageTeams_Click"  FontSize="17" Width="200" Height="30" Background="Blue" Foreground="White" Grid.Row="1" Grid.Column="0"></Button>
+            <Button x:Name="ManagePlayers" Content="Manage Players" Click="ManagePlayers_Click"  FontSize="17" Width="200" Height="30" Background="Blue" Foreground="White" Grid.Row="1" Grid.Column="1"></Button>
         </Grid>
     </Grid>
 </Page>

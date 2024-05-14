@@ -87,6 +87,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Models\Partials\StaticsMatch.cs" />
+    <Compile Include="Models\Partials\Team.cs" />
     <Compile Include="Pages\PageAdmin.xaml.cs">
       <DependentUpon>PageAdmin.xaml</DependentUpon>
     </Compile>
@@ -96,17 +97,20 @@
     <Compile Include="Pages\PageManageSeasons.xaml.cs">
       <DependentUpon>PageManageSeasons.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\PageManageTeam.xaml.cs">
+      <DependentUpon>PageManageTeam.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\PageNewMatchup.xaml.cs">
       <DependentUpon>PageNewMatchup.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageNewTeam.xaml.cs">
+      <DependentUpon>PageNewTeam.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\PageTech.xaml.cs">
       <DependentUpon>PageTech.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows\OknoEventOrTech.xaml.cs">
       <DependentUpon>OknoEventOrTech.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Windows\OknoManage.xaml.cs">
-      <DependentUpon>OknoManage.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -148,6 +152,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\PageManageTeam.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\PageMatchups.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -157,6 +165,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\PageNewMatchup.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\PageNewTeam.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -181,10 +193,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Windows\OknoEventOrTech.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Windows\OknoManage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

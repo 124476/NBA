@@ -36,19 +36,19 @@ namespace NBA.Pages
             NavigationService.Navigate(new PageManageSeasons());
         }
 
-        private void Players_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void Matchups_Click(object sender, RoutedEventArgs e)
         {
             NavigationService.Navigate(new PageManageMatchups());
         }
 
-        private void Photos_Click(object sender, RoutedEventArgs e)
+        private void ManagePlayers_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void ManageTeams_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new PageManageTeam());
         }
     }
 }
