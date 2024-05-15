@@ -43,7 +43,7 @@ namespace NBA.Pages
 
         private void ManagePlayers_Click(object sender, RoutedEventArgs e)
         {
-
+            NavigationService.Navigate(new PageManagePlayers());
         }
 
         private void ManageTeams_Click(object sender, RoutedEventArgs e)

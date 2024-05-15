@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace NBA.Pages
 {
@@ -21,6 +22,7 @@ namespace NBA.Pages
     /// </summary>
     public partial class PageTech : Page
     {
+        DispatcherTimer dispatcherTimer;
         public PageTech()
         {
             InitializeComponent();
@@ -30,7 +32,16 @@ namespace NBA.Pages
         {
             App.IsLog = 1;
             App.mainText = "Technical Administrator Menu";
-            MessageBox.Show("Manage Executions – Future Add-on", "The feature would be a future add-on to the current system.\r\n");
+            dispatcherTimer = new DispatcherTimer();
+            dispatcherTimer.Tick += RefreshTick;
+            dispatcherTimer.Interval = TimeSpan.FromSeconds(2);
+            dispatcherTimer.Start();
+        }
+
+        private void RefreshTick(object sender, EventArgs e)
+        {
+            MessageBox.Show("Manage Executions – Future Add-on", "The feature would be a future add-on to the current system.");
+            dispatcherTimer.Stop();
         }
 
         private void ManageExecutions_Click(object sender, RoutedEventArgs e)
@@ -40,7 +51,7 @@ namespace NBA.Pages
 
         private void TeamReport_Click(object sender, RoutedEventArgs e)
         {
-
+            NavigationService.Navigate(new PageTeamReport());
         }
     }
 }

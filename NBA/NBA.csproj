@@ -94,6 +94,9 @@
     <Compile Include="Pages\PageManageMatchups.xaml.cs">
       <DependentUpon>PageManageMatchups.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\PageManagePlayers.xaml.cs">
+      <DependentUpon>PageManagePlayers.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\PageManageSeasons.xaml.cs">
       <DependentUpon>PageManageSeasons.xaml</DependentUpon>
     </Compile>
@@ -105,6 +108,9 @@
     </Compile>
     <Compile Include="Pages\PageNewTeam.xaml.cs">
       <DependentUpon>PageNewTeam.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageTeamReport.xaml.cs">
+      <DependentUpon>PageTeamReport.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\PageTech.xaml.cs">
       <DependentUpon>PageTech.xaml</DependentUpon>
@@ -148,6 +154,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\PageManagePlayers.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\PageManageSeasons.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -181,6 +191,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\PageTeam.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\PageTeamReport.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

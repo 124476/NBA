@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Stipo6\source\repos\NBA\NBA\App.xaml
-191515909122
+21-1607052884
 2386011735
-51-2119536642
+53-158027144
 27-610610401
-MainWindow.xaml;Pages\PageAdmin.xaml;Pages\PageDetail.xaml;Pages\PageImages.xaml;Pages\PageLogin.xaml;Pages\PageMain.xaml;Pages\PageManageMatchups.xaml;Pages\PageManageSeasons.xaml;Pages\PageManageTeam.xaml;Pages\PageMatchups.xaml;Pages\PageMathup.xaml;Pages\PageNewMatchup.xaml;Pages\PageNewTeam.xaml;Pages\PagePlayer.xaml;Pages\PagePlayersMain.xaml;Pages\PageTeam.xaml;Pages\PageTech.xaml;Pages\PageVisitorsMenu.xaml;Windows\OknoEventOrTech.xaml;
+MainWindow.xaml;Pages\PageAdmin.xaml;Pages\PageDetail.xaml;Pages\PageImages.xaml;Pages\PageLogin.xaml;Pages\PageMain.xaml;Pages\PageManageMatchups.xaml;Pages\PageManagePlayers.xaml;Pages\PageManageSeasons.xaml;Pages\PageManageTeam.xaml;Pages\PageMatchups.xaml;Pages\PageMathup.xaml;Pages\PageNewMatchup.xaml;Pages\PageNewTeam.xaml;Pages\PagePlayer.xaml;Pages\PagePlayersMain.xaml;Pages\PageTeam.xaml;Pages\PageTeamReport.xaml;Pages\PageTech.xaml;Pages\PageVisitorsMenu.xaml;Windows\OknoEventOrTech.xaml;
 
 False
 

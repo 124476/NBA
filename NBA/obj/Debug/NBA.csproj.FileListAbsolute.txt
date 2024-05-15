@@ -69,3 +69,7 @@ C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageManageTeam.g.cs
 C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageManageTeam.baml
 C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageNewTeam.g.cs
 C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageNewTeam.baml
+C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageManagePlayers.g.cs
+C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageManagePlayers.baml
+C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageTeamReport.g.cs
+C:\Users\Stipo6\source\repos\NBA\NBA\obj\Debug\Pages\PageTeamReport.baml

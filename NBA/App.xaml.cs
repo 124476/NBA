@@ -19,5 +19,7 @@ namespace NBA
         public static DateTime dateNow;
         public static Season season;
         public static int IsLog;
+        public static bool IsRange;
+        public static List<Team> teams;
     }
 }
